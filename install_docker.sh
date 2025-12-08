@@ -196,7 +196,6 @@ echo ./game/bin/linuxsteamrt64/cs2 \
 	+sv_password $SERVER_PASSWORD \
 	+rcon_password $RCON_PASSWORD \
 	+exec $EXEC
-	+tv_enable 1
 sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
     -dedicated \
     -console \
@@ -216,4 +215,3 @@ sudo -u $user ./game/bin/linuxsteamrt64/cs2 \
     +sv_password "$SERVER_PASSWORD" \
     +rcon_password "$RCON_PASSWORD" \
     +exec "$EXEC"
-		+tv_enable 1
